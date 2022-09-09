@@ -5,11 +5,9 @@
 
 body,
 html {
-    overflow: scroll;
+    background-image: url('/images/space.jpg');
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background: rgb(84, 8, 8);
-    background: radial-gradient(circle, rgba(84, 8, 8, 1) 32%, rgba(7, 7, 8, 1) 50%);
+    background-size: cover;
     height: 100%;
     font-family: monospace;
 }
@@ -52,7 +50,7 @@ a {
     text-align: center;
 }
 
-.slogan p {
+.slogan h1 {
     font-size: 100px;
     font-style: italic;
     color: white;
@@ -77,10 +75,14 @@ a {
     color: white;
 }
 
-.skills-top {
+.skills-heading {
     text-align: center;
     color: white;
     margin-bottom: 20px;
+}
+
+.skills-list {
+    position: relative;
 }
 
 ul {
