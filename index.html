@@ -11,66 +11,103 @@
 
 <body>
     <canvas class="background"></canvas>
-    <div class="header">
-        <div class="logo">
-            <p class="name ">Brian Cordisco</p>
+    <main>
+        <div class="header">
+            <div class="logo">
+                <p class="name ">Brian Cordisco</p>
+            </div>
+            <div class="nav">
+                <a href="CV.pdf" class="resume">Resume/CV</a>
+                <a href="https://www.linkedin.com/in/brian-cordisco-500250205/" class="linkedin">Linkedin</a>
+                <a href="https://github.com/desiredstate2021" class="github">GitHub</a>
+                <a href="https://twitter.com/BrianCordisco " class="twitter">Twitter</a>
+            </div>
         </div>
-        <div class="nav">
-            <a href="CV.pdf" class="resume">Resume/CV</a>
-            <a href="https://www.linkedin.com/in/brian-cordisco-500250205/" class="linkedin">Linkedin</a>
-            <a href="https://github.com/desiredstate2021" class="github">GitHub</a>
-            <a href="https://twitter.com/BrianCordisco " class="twitter">Twitter</a>
+
+        <div class="slogan">
+            <h1>Creator <br> of <br>Web Things</h1>
         </div>
-    </div>
+        <div class="intro">
+            <img class="image" src="/images/phone.svg" alt="" />
+            <p class="paragraph">
+                Love reading up on the latest tech news. Spend my free time expanding my knowledge in Web and App development. My hobbies are Personal Computer Fabrication, Photography, and Dancing. Recent WBS Coding School Graduate. Forever evolving and learning.
+            </p>
 
-    <div class="slogan">
-        <h1>Creator <br> of <br>Web Things</h1>
-    </div>
-    <div class="intro">
-        <img class="image" src="/images/Layer 2.png" alt="" />
-        <p class="paragraph">
-            Love reading up on the latest tech news. Spend my free time expanding my knowledge in Web and App development. My hobbies are Personal Computer Fabrication, Photography, and Dancing. Recent WBS Coding School Graduate. Forever evolving and learning.
-        </p>
+        </div>
 
-    </div>
+        <div class="skills-heading">
+            <h3>Skills</h3>
+        </div>
+        <div class="skills-list">
+            <ul>
+                <img src="/icons/005-js24.png" alt="Javascript">
+                <li class="skill-1">Javascript</li>
+                <img src="/icons/006-atom24.png" alt="React">
+                <li class="skill-2">React</li>
+                <img src="/icons/007-html-5-24.png" alt="HTML5">
+                <li class="skill-3">HTML5</li>
+                <img src="/icons/003-css24.png" alt="CSS">
+                <li class="skill-4">CSS</li>
+                <img src="/icons/002-nodejs24.png" alt="Node.JS">
+                <li class="skill-5">Node.JS</li>
+                <img src="/icons/git24.png" alt="Git">
+                <li class="skill-7">Git</li>
+                <img src="/icons/004-bootstrap24.png" alt="Bootstrap">
+                <li class="skill-8">Bootstrap</li>
+            </ul>
+        </div>
 
-    <div class="skills-heading">
-        <h3>Skills</h3>
-    </div>
-    <div class="skills-list">
-        <ul>
-            <img src="/icons/005-js24.png" alt="Javascript">
-            <li class="skill-1">Javascript</li>
-            <img src="/icons/006-atom24.png" alt="React">
-            <li class="skill-2">React</li>
-            <img src="/icons/007-html-5-24.png" alt="HTML5">
-            <li class="skill-3">HTML5</li>
-            <img src="/icons/003-css24.png" alt="CSS">
-            <li class="skill-4">CSS</li>
-            <img src="/icons/002-nodejs24.png" alt="Node.JS">
-            <li class="skill-5">Node.JS</li>
-            <img src="/icons/git24.png" alt="Git">
-            <li class="skill-7">Git</li>
-            <img src="/icons/004-bootstrap24.png" alt="Bootstrap">
-            <li class="skill-8">Bootstrap</li>
-        </ul>
-    </div>
-    <footer class="footer">
-        <p style="text-align: center">
-            Copyright &copy; 2021 -
-            <script>
-                document.write(new Date().getFullYear());
-            </script>
-            Brian Cordisco All Rights Reserved
-        </p>
-    </footer>
+        <div class="projects">
+            <h3>Projects</h3>
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <img src="/images/inquizable.png" alt="inquizable" style="width:100%">
+                <div class="container">
+                    <h4><b>Inquizable</b></h4>
+                    <p>Quiz yourself with common knowledge questions.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/images/meme.png" alt="Avatar" style="width:100%">
+                <div class="container">
+                    <h4><b>Meme Generator</b></h4>
+                    <p>Geneorate memes and share them</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/images/space.png" alt="Avatar" style="width:100%">
+                <div class="container">
+                    <h4><b>Amazing Space/b></h4>
+                <p>Human Space exploration</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="/images/weather.jpg" alt="Avatar" style="width:100%">
+            <div class="container">
+                <h4><b>Weather Application</b></h4>
+                    <p>Check your local weather</p>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p style="text-align: center">
+                Copyright &copy; 2021 -
+                <script>
+                    document.write(new Date().getFullYear());
+                </script>
+                Brian Cordisco All Rights Reserved
+            </p>
+        </footer>
+    </main>
     <script src="js\particles.min.js"></script>
     <script>
         window.onload = function() {
             Particles.init({
 
                 selector: '.background',
-                color: ['#FFBF00', '#ff0000', '#FFFFFF'],
+                color: ['#FFBF00', '#FFFFFF'],
                 maxParticles: 200,
                 connectParticles: true,
                 responsive: [{
@@ -89,6 +126,7 @@
             });
         };
     </script>
+    <canvas class="background"></canvas>
 </body>
 
 </html>
