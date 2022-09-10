@@ -36,11 +36,13 @@ html {
 
 a {
     color: white;
+    font-size: 20px;
     text-decoration: none;
 }
 
 .logo {
     color: white;
+    font-size: 20px;
 }
 
 .slogan {
@@ -76,18 +78,22 @@ a {
 }
 
 .skills-heading {
+    position: relative;
     text-align: center;
     color: white;
     margin-bottom: 20px;
+    font-size: 20px;
 }
 
 .skills-list {
     position: relative;
+    font-size: 20px;
 }
 
 ul {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
 }
