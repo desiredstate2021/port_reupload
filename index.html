@@ -63,34 +63,33 @@
         <div class="card-container">
             <div class="card">
                 <img src="/images/inquizable.png" alt="inquizable" style="width:100%">
-                <div class="container">
+                <div>
                     <h4><b>Inquizable</b></h4>
                     <p>Quiz yourself with common knowledge questions.</p>
                 </div>
             </div>
             <div class="card">
                 <img src="/images/meme.png" alt="Avatar" style="width:100%">
-                <div class="container">
+                <div>
                     <h4><b>Meme Generator</b></h4>
                     <p>Geneorate memes and share them</p>
                 </div>
             </div>
             <div class="card">
-                <img src="/images/space.png" alt="Avatar" style="width:100%">
-                <div class="container">
-                    <h4><b>Amazing Space/b></h4>
-                <p>Human Space exploration</p>
+                <img src="/images/amazingspace.png" alt="Avatar" style="width:100%">
+                <div>
+                    <h4><b>Amazing Space</b></h4>
+                    <p>Human Space Exploration</p>
+                </div>
             </div>
-        </div>
-        <div class="card">
-            <img src="/images/weather.jpg" alt="Avatar" style="width:100%">
-            <div class="container">
-                <h4><b>Weather Application</b></h4>
-                    <p>Check your local weather</p>
+            <div class="card">
+                <img src="/images/weather.jpg" alt="Avatar" style="width:100%">
+                <div>
+                    <h4><b>Weather Application</b></h4>
+                    <p>Find Local Weather in your Area</p>
                 </div>
             </div>
         </div>
-
         <footer class="footer">
             <p style="text-align: center">
                 Copyright &copy; 2021 -
@@ -105,28 +104,26 @@
     <script>
         window.onload = function() {
             Particles.init({
-
                 selector: '.background',
                 color: ['#FFBF00', '#FFFFFF'],
-                maxParticles: 200,
-                connectParticles: true,
+                maxParticles: 300,
+                connectParticles: false,
                 responsive: [{
                     breakpoint: 768,
                     options: {
-                        maxParticles: 150,
-                        color: '#ff0000'
+                        maxParticles: 200,
+                        color: ['#FFBF00', '#FFFFFF']
                     }
                 }, {
                     breakpoint: 375,
                     options: {
                         maxParticles: 60,
-                        color: '#FFC0CB'
+                        color: ['#FFBF00', '#FFFFFF']
                     }
                 }]
             });
         };
     </script>
-    <canvas class="background"></canvas>
 </body>
 
 </html>
